@@ -725,4 +725,59 @@ footer{
     font-size: 30px;
     line-height: 36px;
 }
+.fifth_design{
+height: 890px;
+}
+.pink_container{
+    margin-left: -56px;
+    flex-direction: column;
+}
+.sentence_des {
+    font-size: 8px;
+    line-height: 20px;
+}
+.sentence_des2 {
+    line-height: 26px;
+    font-size: 10px;
+}
+.group_img_65 {
+    width: 495px;
+}
+/* .logo_box_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
+.logo_box_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    gap:40px;
+}
+.logo_box_container2 {
+    gap: 28px;
+    margin-left: 6px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+.sixth_design{
+    height:400px;
+}
+.box_container{
+    padding: 40px 68px;
+}
+.circle_img{
+    width: 40px;
+}
+.logo_box, .logo_box8, .logo_box8, .logo_box9 {
+    width:158px;
+    font-size: 12px;
+}
+.logo_box2{
+    width:168px;
+    font-size: 12px;
+}
+.logo_box4,.logo_box6{
+    width:170px;
+    font-size: 12px;
+}
 }
