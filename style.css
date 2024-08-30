@@ -629,4 +629,24 @@ footer{
     font-size: 18px;
     padding-top: 20px;
 }
+.container4 h1{
+    font-size: 20px;
+}
+.container4 p{
+    font-size: 10px;
+}
+.box_img{
+    width: 234px;
+    margin-left: 58px;
+    }
+.box_img1{
+    width: 234px;
+    margin-left: 58px;
+    }
+    .box_des{
+        font-size: 11px;
+        line-height: 18px;
+        text-align: center;
+    }
+    
 }
