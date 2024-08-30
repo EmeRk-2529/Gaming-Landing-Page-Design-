@@ -568,6 +568,11 @@ footer{
     .nav_container{
         flex-direction: column;
     }
-
+    .nav_design{
+        justify-content: center;
+    }
+.nav_search{
+    flex-direction: column;
+}
 
 }
