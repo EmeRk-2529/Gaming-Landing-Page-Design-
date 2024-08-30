@@ -667,7 +667,8 @@ footer{
     }
 .box_img_container{
     flex-direction: column;
-    margin-left:83px;
+    /* margin-left:83px; */
+    margin-left:51px;
 }
 .third_desing{
     margin-bottom:0px;
