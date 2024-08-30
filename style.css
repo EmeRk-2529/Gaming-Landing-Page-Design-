@@ -437,7 +437,7 @@ height:620px;
     padding: 100px 200px;
 }
 .logo_box_container {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     gap:40px
 }
@@ -648,5 +648,8 @@ footer{
         line-height: 18px;
         text-align: center;
     }
+.box_img_container{
+    flex-direction: column;
+}
     
 }
