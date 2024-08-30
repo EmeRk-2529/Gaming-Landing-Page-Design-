@@ -618,4 +618,15 @@ footer{
     /* /* width: 500px;  */
     margin-top:20px;
 } 
+.purpose_des{
+    padding-left: 315px;
+    font-size: 17px;
+}
+    
+    
+.des_unlesh{
+    padding-left: 228px;
+    font-size: 18px;
+    padding-top: 20px;
+}
 }
