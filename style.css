@@ -649,23 +649,25 @@ footer{
     font-size: 20px;
 }
 .container4 p{
-    font-size: 10px;
+    font-size: 14px;
 }
 .box_img{
     width: 234px;
-    margin-left: 42px;
+    /* margin-left: 42px; */
     }
 .box_img1{
     width: 234px;
-    margin-left: 42px;
+    /* margin-left: 42px; */
     }
     .box_des{
-        font-size: 11px;
+        font-size: 14px;
         line-height: 18px;
-        text-align: center;
+        /* text-align: center; */
+        padding: 5px 6px;
     }
 .box_img_container{
     flex-direction: column;
+    margin-left:83px;
 }
 .third_desing{
     margin-bottom:0px;
@@ -675,7 +677,7 @@ footer{
     margin-left:-21px;
     justify-content: center;
     gap: 55px;
-    margin-top:-118px;
+    margin-top:-170px;
     flex-direction: column;
   }
 .row1{
@@ -740,6 +742,9 @@ height: 890px;
     line-height: 26px;
     font-size: 10px;
 }
+.forth_design{
+    margin-bottom:60px;
+}
 .group_img_65 {
     width: 495px;
 }
@@ -751,7 +756,7 @@ height: 890px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
-    gap:40px;
+    gap:19px;
 }
 .logo_box_container2 {
     gap: 28px;
@@ -763,7 +768,7 @@ height: 890px;
     height:400px;
 }
 .box_container{
-    padding: 40px 68px;
+    padding: 40px 0px;
 }
 .circle_img{
     width: 40px;
@@ -779,5 +784,15 @@ height: 890px;
 .logo_box4,.logo_box6{
     width:170px;
     font-size: 12px;
+}
+.logo_box7{
+    width:182px;
+    font-size:11.5px;
+}
+.sentence_container1{
+    margin-top:63px;
+}
+.pink_container_img{
+    margin-left: 131px;
 }
 }
