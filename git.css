@@ -39,3 +39,47 @@
   margin-top: 70px;
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container5{
+    
+  /* flex-basis: 50%; */
+  position: relative;
+  margin-top: 10px;
+
+}
+.feature-img{
+width: 279px;
+}
+.thumbnail-img{
+width: 152px;
+bottom: -67px;
+left: -18px;
+}
+.row{
+display: flex;
+gap: 59px;
+flex-direction: column;
+}
+.container6{
+/* flex-basis: 50%; */
+position: relative;
+margin-left: 73px;
+}
+}
+
