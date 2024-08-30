@@ -574,5 +574,12 @@ footer{
 .nav_search{
     flex-direction: column;
 }
+.container{
+    flex-direction: column-reverse;
+}
+.banner2 img{
+    width: 280px;
+    margin-left: 150px;
+}
 
 }
