@@ -583,5 +583,39 @@ footer{
     width: 280px;
     margin-left: 150px;
 }
+.container2{
+    flex-direction:column ;
+}
+.container3{
+    margin-right: 243px;
+    margin-top: 0px;
+    /* text-align: center; */
+}
+.wing_img{
+    /* width: 700px; */
+    width: 310px;
 
+}
+.word_wegamer{
+    font-size:30px;
+    padding-left: 280px;
+}
+.btn_know{
+   
+    
+    width: 137px;
+    
+   
+    margin-left: 301px;
+    
+}
+.primary_des{
+     color: #534C64;
+    text-align: right;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    /* /* width: 500px;  */
+    margin-top:20px;
+} 
 }
