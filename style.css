@@ -65,6 +65,7 @@ align-items:center;
     justify-content: center;
     align-items: center;
     margin-right: 151px;
+    
 }
 .frame_icon{
     display: flex;
@@ -79,6 +80,7 @@ align-items:center;
     background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
     /* display: flex; */
     padding: 150px 240px;
+    position:relative;
     /* justify-content: space-between; */
     /* gap: 400px; */
 }
