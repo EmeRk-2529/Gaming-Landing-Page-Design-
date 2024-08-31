@@ -585,6 +585,7 @@ footer{
 @media screen and (max-width:576px) {
     .nav_container{
         flex-direction: column;
+        padding-right:85px;
     }
     .nav_design{
         justify-content: center;
@@ -597,15 +598,21 @@ footer{
 }
 .banner2 img{
     width: 280px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    margin-left: 104px;
+    
 }
 .container2{
     flex-direction:column ;
 }
 .container3{
-    margin-right: 243px;
+    /* margin-right: 243px; */
+    margin-right: 234px;
     margin-top: 0px;
     /* text-align: center; */
+}
+.container4{
+    padding-right:55px;
 }
 .wing_img{
     /* width: 700px; */
@@ -669,7 +676,8 @@ footer{
 .box_img_container{
     flex-direction: column;
     /* margin-left:83px; */
-    margin-left:16px;
+    /* margin-left:26px; */
+    margin-left:3px;
 }
 .third_desing{
     margin-bottom:0px;
@@ -792,9 +800,40 @@ height: 890px;
     font-size:11.5px;
 }
 .sentence_container1{
-    margin-top:63px;
+    margin-top: 69px;
+    margin-left: 43px;
 }
 .pink_container_img{
     margin-left: 131px;
+}
+footer{
+    height:650px;
+}
+.seventh_design {
+    padding: 73px 62px;
+}
+.gamer_word2 {
+    padding-bottom:20px
+}
+.footer_container{
+    padding-right:20px;
+}
+.footer_list_container ul{
+    gap:13px;
+    padding:20px;
+font-size:11px;
+padding-right:50px;
+}
+.footer_list_container1 ul{
+    gap:13px;
+    padding:20px;
+font-size:11px;
+padding-right:50px;
+}
+.footer_logo{
+    padding-right:37px;
+}
+.ending_footer {
+    font-size:10px;
 }
 }
