@@ -58,13 +58,15 @@ align-items:center;
 .first_design{
     width:100%;
     /* margin-bottom: 200px; */
-    
+   
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 151px;
+    /* background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
+    background-repeat: no-repeat; */
     
 }
 .frame_icon{
@@ -74,10 +76,11 @@ align-items:center;
     line-height: 30px;
 }
 .banner1{
-    width: 901px;
+    /* width: 901px; */
     /* width: 801px; */
-    height: 700px;
-    background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
+    /* height: 700px; */
+    /* background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
+    background-repeat: no-repeat; */
     /* display: flex; */
     padding: 150px 240px;
     position:relative;
@@ -93,12 +96,13 @@ gap: 0px;
 opacity: 0px;
 background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
 } */
- .banner1 h1{
+
     
-font-size: 30px;
-    
-font-weight: 700;
- }
+    .word_play {
+        font-size: 37px;
+        font-weight: 700;
+        padding-left: 12px;
+    }
   .word_gradiant {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -523,6 +527,7 @@ margin-left:70px;
     font-size: 20px;
     font-weight: bolder;
     color: #fff;
+    padding-bottom: 20px;
 }
 footer{
     background: #0B0223; 
@@ -793,16 +798,17 @@ height: 890px;
     font-size: 12px;
 }
 .logo_box2{
-    width:168px;
-    font-size: 12px;
+    width: 160px;
+        font-size: 11px;
 }
 .logo_box4,.logo_box6{
-    width:170px;
-    font-size: 12px;
+    
+        width: 160px;
+        font-size: 11px
 }
-.logo_box7{
-    width:182px;
-    font-size:11.5px;
+.logo_box7 {
+    width: 166px;
+    font-size: 10.5px;
 }
 .sentence_container1{
     margin-top: 69px;
