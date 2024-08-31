@@ -798,18 +798,28 @@ height: 890px;
     font-size: 12px;
 }
 .logo_box2{
-    width: 160px;
+    
+        width: 150px;
         font-size: 11px;
+        gap: 5px;
 }
+.logo_box3{
+    width: 163px;
+    gap: 5px;
+} 
+
 .logo_box4,.logo_box6{
     
-    width: 155px;
+    width: 151px;
     font-size: 11px;
-
+    gap: 5px;
 }
 .logo_box7 {
-    width: 161px;
-    font-size: 10.5px;
+    
+        width: 156px;
+        font-size: 10.5px;
+        gap: 5px;
+    
 }
 .sentence_container1{
     margin-top: 69px;
