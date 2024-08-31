@@ -649,8 +649,9 @@ footer{
     font-size: 20px;
 }
 .container4 p{
-    font-size: 14px;
+    font-size: 12px;
 }
+
 .box_img{
     width: 234px;
     /* margin-left: 42px; */
@@ -668,7 +669,7 @@ footer{
 .box_img_container{
     flex-direction: column;
     /* margin-left:83px; */
-    margin-left:51px;
+    margin-left:16px;
 }
 .third_desing{
     margin-bottom:0px;
@@ -691,26 +692,26 @@ footer{
   .feature-img{
     
     width: 279px;
-    margin-left: 98px;
+    margin-left: 62px;
   }
   .feature-img1{
     
     width: 279px;
         
-    margin-left: 86px;
+    margin-left: 48px;
       }
   .thumbnail-img{
     width: 152px;
     position: absolute;
     bottom: -53px;
-    left: 227px;
+    left: 43px;
   
 }
 .thumbnail-img1{
     width: 152px;
     position: absolute;
     bottom: -30px;
-    left: 229px;
+    left: 196px;
     
   }
   .container55{
