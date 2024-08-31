@@ -586,6 +586,7 @@ footer{
     .nav_container{
         flex-direction: column;
         padding-right:85px;
+        padding-right:63px;
     }
     .nav_design{
         justify-content: center;
@@ -599,7 +600,8 @@ footer{
 .banner2 img{
     width: 280px;
     /* margin-left: 150px; */
-    margin-left: 104px;
+    /* margin-left: 104px; */
+    margin-left: 130px;
     
 }
 .container2{
@@ -612,7 +614,8 @@ footer{
     /* text-align: center; */
 }
 .container4{
-    padding-right:55px;
+    /* padding-right:55px; */
+    padding-right:40px;
 }
 .wing_img{
     /* width: 700px; */
@@ -677,7 +680,8 @@ footer{
     flex-direction: column;
     /* margin-left:83px; */
     /* margin-left:26px; */
-    margin-left:3px;
+    /* margin-left:3px; */
+    margin-left:20px;
 }
 .third_desing{
     margin-bottom:0px;
