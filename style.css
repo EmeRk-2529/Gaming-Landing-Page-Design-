@@ -803,11 +803,12 @@ height: 890px;
 }
 .logo_box4,.logo_box6{
     
-        width: 160px;
-        font-size: 11px
+    width: 155px;
+    font-size: 11px;
+
 }
 .logo_box7 {
-    width: 166px;
+    width: 161px;
     font-size: 10.5px;
 }
 .sentence_container1{
