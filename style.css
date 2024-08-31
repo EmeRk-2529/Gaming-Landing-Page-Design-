@@ -586,7 +586,8 @@ footer{
     .nav_container{
         flex-direction: column;
         padding-right:85px;
-        padding-right:63px;
+        /* padding-right:63px; */
+        padding-right:50px;
     }
     .nav_design{
         justify-content: center;
@@ -614,8 +615,8 @@ footer{
     /* text-align: center; */
 }
 .container4{
-    /* padding-right:55px; */
-    padding-right:40px;
+    padding-right:30px;
+    /* padding-right:40px; */
 }
 .wing_img{
     /* width: 700px; */
