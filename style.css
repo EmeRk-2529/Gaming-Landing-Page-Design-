@@ -128,6 +128,10 @@ background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
     width: 500px;
     /* margin: 20px; */
 }
+.banner2 img:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    cursor:pointer ;
+}
 .btn_sign{
     gap: 10px;
     border-radius: 48px;
@@ -180,6 +184,10 @@ background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
 .wing_img{
     /* width: 700px; */
     width:650px;
+}
+.wing_img:hover{
+    filter: drop-shadow(2px 4px 6px #F948B2);
+    cursor:pointer ;
 }
 .word_wegamer{
     font-size: 36px;
@@ -300,10 +308,17 @@ position: relative;
   .feature-img{
     width: 450px;
   }
+  .feature-img:hover, .feature-img1:hover {
+    filter: drop-shadow(2px 4px 6px black);
+    cursor:pointer ;
+  }
+  /* .feature-img1:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    cursor:pointer ;
+  } */
   .feature-img1{
     width: 450px;
   }
-  
 
   .thumbnail-img{
     width: 195px;
@@ -401,19 +416,19 @@ position: relative;
     width: 40px;
     height: 40px;
     position: absolute;
-    bottom: -128%;
+    /* bottom: -128%; */
     /* left: -49%; */
-    background-color: #F948B2;
-    /* bottom: 147px; */
+    bottom: 172px;
     /* top: -172px; */
-    left: 58%;
+    left: 44%;
+
 }
 .hero1{
     /* width: 40px;
     height: 40px; */
-    position: relative;
+    position: absolute;
     bottom: -132%;
-    left: 29.5%;
+    left: 34.5%;
     color:#FF42A5;
     font-weight: 700;
     bottom: 134px;
@@ -517,6 +532,14 @@ margin-left:70px;
     cursor: pointer;
     transition: 1s;
 } */
+
+
+.absolute{
+    position:relative;
+}
+
+
+
 
 .logo_box2{
     display:inline-flex;
@@ -842,13 +865,18 @@ height: 890px;
         right: 20px;
         gap: 36px;
 
+    }
 
 
-        
+        .hero{
+            left:37%
+        }
+        .hero1{
+left:27.5%
+        }
 
 
 
-}
 .sentence_des {
     font-size: 8px;
     line-height: 20px;
