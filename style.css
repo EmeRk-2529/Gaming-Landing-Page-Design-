@@ -749,8 +749,8 @@ footer{
     line-height: 36px;
 }
 .fifth_design{
-/* height: 890px; */
-height: 830px;
+height: 890px;
+/* height: 830px; */
 }
 .pink_container{
     /* margin-left: -56px;
@@ -864,20 +864,29 @@ footer{
 .footer_container{
     padding-right:20px;
 }
+/* .footer_list_container ul{
+    gap:13px;
+    padding:20px;
+font-size:11px;
+padding-right:50px;
+} */
 .footer_list_container ul{
-    gap:13px;
-    padding:20px;
-font-size:11px;
-padding-right:50px;
+    gap: 23px;
+    font-size: 11px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    line-height: 10px;
+    margin-left: 40px;
+    padding-bottom: 37px;
 }
-.footer_list_container1 ul{
-    gap:13px;
-    padding:20px;
-font-size:11px;
-padding-right:50px;
-}
-.footer_logo{
+/* .footer_logo{
     padding-right:37px;
+} */
+.footer_logo {
+    padding-right: 37px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 74px;
 }
 .ending_footer {
     font-size:10px;

@@ -59,15 +59,17 @@ align-items:center;
 .first_design{
     width:100%;
     /* margin-bottom: 200px; */
-   
+    background-repeat: no-repeat;
+    /* background-color: rgba(140, 87, 238, 0.03); */
+      background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 151px;
-    /* background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
-    background-repeat: no-repeat; */
+    /* background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png); */
+   
     
 }
 .frame_icon{
@@ -87,6 +89,7 @@ align-items:center;
     position:relative;
     /* justify-content: space-between; */
     /* gap: 400px; */
+    
 }
 
 /* .banner1{
