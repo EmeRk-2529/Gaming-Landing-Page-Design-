@@ -14,6 +14,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 30px;
+    box-shadow:0px 4px 30px 0px rgba(0,0,0,0.05)
 }
 .nav_design{
     display:flex;
@@ -748,11 +749,24 @@ footer{
     line-height: 36px;
 }
 .fifth_design{
-height: 890px;
+/* height: 890px; */
+height: 830px;
 }
 .pink_container{
-    margin-left: -56px;
-    flex-direction: column;
+    /* margin-left: -56px;
+    flex-direction: column; */
+        margin-left: -56px;
+        flex-direction: column;
+        position: relative;
+        right: 20px;
+        gap: 36px;
+
+
+
+        
+
+
+
 }
 .sentence_des {
     font-size: 8px;
@@ -765,9 +779,17 @@ height: 890px;
 .forth_design{
     margin-bottom:60px;
 }
-.group_img_65 {
+/* .group_img_65 {
     width: 495px;
+} */
+.group_img_65 {
+    width: 412px;
+    /* margin-left: 140px; */
+    position: relative;
+    left: 54px;
 }
+
+
 /* .logo_box_container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -822,12 +844,14 @@ height: 890px;
     
 }
 .sentence_container1{
-    margin-top: 69px;
-    margin-left: 43px;
+    /* margin-top: 69px;
+    margin-left: 43px; */
+        margin-top: 69px;
+        margin-left: 123px;
 }
-.pink_container_img{
+/* .pink_container_img{
     margin-left: 131px;
-}
+} */
 footer{
     height:650px;
 }
