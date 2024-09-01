@@ -80,14 +80,19 @@ align-items:center;
     /* width: 901px; */
     /* width: 801px; */
     /* height: 700px; */
-    /* background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
-    background-repeat: no-repeat; */
-    /* display: flex; */
-    padding: 150px 240px;
+    background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
+    background-repeat: no-repeat;
     position:relative;
+    background-size: cover;
+    background-position: center;
+    overflow:hidden;
+    /* display: flex; */
+    padding: 150px 284px;
+   
     /* justify-content: space-between; */
     /* gap: 400px; */
 }
+
 
 /* .banner1{
     width: 901px;
@@ -223,6 +228,7 @@ background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
     justify-content: space-evenly;
     padding: 35px;
 }
+
 .container4 h1{
     font-size: 35px;
     color:#000;
@@ -239,13 +245,31 @@ background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
 }
 .box_img{
 width:260px;
+position: relative;
+}
+.box_img:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+.box_img1:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
 }
 .box_img1{
     width:260px;
     filter: brightness(0.5);
+    position: relative;
+    }
+.box_img2{
+    width:260px;
+    position: relative;
     }
 
 .box_des{
+    font-size: 15px;
+    line-height: 20px;
+}
+.box_des1{
     font-size: 15px;
     line-height: 20px;
 }
@@ -378,16 +402,21 @@ width:260px;
     height: 40px;
     position: absolute;
     bottom: -128%;
+    /* left: -49%; */
+    background-color: #F948B2;
+    /* bottom: 147px; */
+    /* top: -172px; */
     left: 58%;
 }
 .hero1{
     /* width: 40px;
     height: 40px; */
-    position: absolute;
+    position: relative;
     bottom: -132%;
-    left: 56.5%;
+    left: 29.5%;
     color:#FF42A5;
     font-weight: 700;
+    bottom: 134px;
 }
 .fifth_design{
     
@@ -483,6 +512,12 @@ margin-left:70px;
     font-size: 14px;
     font-weight: 700;
 }
+/* .logo_box, .logo_box5, .logo_box8, .logo_box9:hover{
+    border:2px solid #FF42A5;
+    cursor: pointer;
+    transition: 1s;
+} */
+
 .logo_box2{
     display:inline-flex;
     box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.01);
@@ -601,14 +636,56 @@ footer{
 .nav_search{
     flex-direction: column;
 }
-.container{
+
+.container {
     flex-direction: column-reverse;
+    margin-right: 0px;
 }
+
+
+.banner1{
+    
+    /* background-image: url(B8A2-Gamer-Zone-main/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    position:relative;
+    background-size: cover;
+   
+    overflow:hidden; */
+    background-position: right;
+    padding: 44px 70px;
+}
+
+.word_play {
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+h1.word_gradiant {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.container p {
+    font-size: 11px;
+}
+.button_container{
+    gap: 10px;
+}
+.btn_sign{
+    width:87px;
+    font-size:12px;
+}
+.btn_go_rogue{
+    width:109px;
+    font-size:12px;
+}
+
 .banner2 img{
     width: 280px;
     /* margin-left: 150px; */
     /* margin-left: 104px; */
-    margin-left: 130px;
+    /* margin-left: 130px; */
+    margin-left: 0px;
     
 }
 .container2{
@@ -674,6 +751,10 @@ footer{
     /* margin-left: 42px; */
     }
 .box_img1{
+    width: 234px;
+    /* margin-left: 42px; */
+    }
+.box_img2{
     width: 234px;
     /* margin-left: 42px; */
     }
