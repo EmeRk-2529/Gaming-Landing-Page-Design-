@@ -81,8 +81,12 @@ align-items:center;
     background-size: cover;
     background-position: center;
     overflow:hidden;
-    
     padding: 150px 284px;
+}
+.banner1:hover{
+    filter: drop-shadow(2px 4px 6px #8758F1);
+    cursor:pointer ;
+
 }
  .word_play {
         font-size: 37px;  
@@ -239,7 +243,7 @@ position: relative;
 }
 .box_img1:hover{
     cursor: pointer;
-    filter: brightness(0.5);
+    filter: drop-shadow(2px 4px 6px black);
 }
 .box_img1{
     width:260px;
@@ -381,6 +385,7 @@ position: relative;
     left: 44%;
 
 }
+
 .hero1{
     position: absolute;
     bottom: -132%;
